@@ -3,4 +3,4 @@
 
 **Capital expenditure** or **capital expense** is the money an organization or corporate entity spends to buy its fixed assets, such as servers, buildings, vehicles, equipment, or land.
 
-**Operational expenditure** is the money an organization or corporate entity spends to maintain, or improve its fixed assets, such as hitting ventilation, electricity, human, and payroll costs.
+**Operational expenditure** is the money an organization or corporate entity spends to maintain, or improve its fixed assets, such as hitting ventilation, electricity, human and manpower, and payroll costs.
