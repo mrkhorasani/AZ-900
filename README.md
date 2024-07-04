@@ -25,5 +25,6 @@ When you have an error in an application, you need to troubleshoot only the func
 2. Scalability <br>
    2.1 Vertical Scaling: like an increase of RAM in the spike in traffic (Scale Up) <br>
    2.2 Horizontal Scaling: like auto-adding a WebServer in the spike in traffic load (Scale Out)
-3. Elasticity
+   ![image](https://github.com/mrkhorasani/AZ-900/assets/51242725/6ff3da70-70e4-41c0-a590-1f758d74a046)
+4. Elasticity
 
