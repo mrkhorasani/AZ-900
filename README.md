@@ -14,3 +14,5 @@ https://www.brookings.edu/wp-content/uploads/2012/04/0407_cloud_computing_kundra
 
 Virtual Machine Vs Container Vs Serverless-Computing
 ![image](https://github.com/mrkhorasani/AZ-900/assets/51242725/b21dbcaa-b007-4590-8c49-8bd9a403b62e)
+In the cloud, you have to pay for VMs and Containers idle times, but you only pay for the cost of Serverless-Computing runtime.
+When you have an error in an application, you need to troubleshoot only the function that made a mistake for you separately, not all of the application. So this troubleshooting method doesn't affect all aspects of your application.
