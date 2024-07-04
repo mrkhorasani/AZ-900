@@ -23,7 +23,7 @@ When you have an error in an application, you need to troubleshoot only the func
 
 1. Cost Effective
 2. Scalability <br>
-   2.1 Vertical Scaling: like an increase of RAM in the spike in traffic (ScaleUP) <br>
-   2.2 Horizontal Scaling: like auto-adding a WebServer in the spike in traffic load (ScaleOUT)
+   2.1 Vertical Scaling: like an increase of RAM in the spike in traffic (Scale Up) <br>
+   2.2 Horizontal Scaling: like auto-adding a WebServer in the spike in traffic load (Scale Out)
 3. Elasticity
 
