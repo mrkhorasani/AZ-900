@@ -17,3 +17,12 @@ Virtual Machine Vs Container Vs Serverless-Computing
 > [!Note]  
 > In the cloud, you have to pay for VMs and Containers idle times, but you only pay for the cost of Serverless-Computing runtime.
 When you have an error in an application, you need to troubleshoot only the function that made a mistake for you separately, not all of the application. So this troubleshooting method doesn't affect all aspects of your application.
+
+--------------
+**Benefits of Cloud:**/
+1. Cost Effective/
+2. Scalability/
+   2.1 Vertical Scaling: like an increase of RAM in the spike in traffic (ScaleUP)
+   2.2 Horizontal Scaling: like auto-adding a WebServer in the spike in traffic load (ScaleOUT)
+4. Elasticity
+
