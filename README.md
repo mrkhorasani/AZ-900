@@ -28,8 +28,12 @@ When you have an error in an application, you need to troubleshoot only the func
    ![image](https://github.com/mrkhorasani/AZ-900/assets/51242725/6ff3da70-70e4-41c0-a590-1f758d74a046)
 3. Elasticity
 4. Current/Updated<br>
-   Hardware and software updates, the latest patches will be installed by CSP
+   Hardware and software updates, the latest patches will be installed by CSP(Cloud Service Provider)
 5. Reliable<br>
    Disaster Recovery Plan, Redundancy, Fault Tolerance, Backup by CSP
 6. Cloud is Global<br>
-   Cloud services are located in different regions (Available Zone), for the best response time. Cloud users can replicate their services to the other regions for redundancy
+   Cloud services are located in different regions (Available Zone), for the best response time. Cloud users can replicate their services into multiple regions for redundancy and the least latency.
+7. Security<br>
+   7.1 Physical: Guards, walls, cameras, gates, security personnel, and .etc...<br>
+   7.2  Digital & Cyber: firewalls and security software and tools
+   
