@@ -32,7 +32,7 @@ When you have an error in an application, you need to troubleshoot only the func
    Hardware and software updates, the latest patches will be installed by CSP(Cloud Service Provider)
 5. Reliable<br>
    Disaster Recovery Plan, Redundancy, Fault Tolerance(to be up and running), Backup by CSP
-6. Cloud is Global<br>
+6. Cloud is Global(Global Reach)<br>
    Cloud services are located in different regions (Available Zone), for the best response time. Cloud users can replicate their services into multiple regions for redundancy and the least latency.
 7. Security<br>
    7.1 Physical: Guards, walls, cameras, gates, security personnel, and .etc...<br>
