@@ -22,8 +22,8 @@ When you have an error in an application, you need to troubleshoot only the func
 **Benefits of Cloud:**
 
 1. Cost Effective
-2. Scalability/
-   2.1 Vertical Scaling: like an increase of RAM in the spike in traffic (ScaleUP)
-   2.2 Horizontal Scaling: like auto-adding a WebServer in the spike in traffic load (ScaleOUT)
-4. Elasticity
+2. Scalability\\
+   2.1 Vertical Scaling: like an increase of RAM in the spike in traffic (ScaleUP)\\
+   2.2 Horizontal Scaling: like auto-adding a WebServer in the spike in traffic load (ScaleOUT)//
+3. Elasticity
 
