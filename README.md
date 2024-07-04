@@ -37,4 +37,7 @@ When you have an error in an application, you need to troubleshoot only the func
 7. Security<br>
    7.1 Physical: Guards, walls, cameras, gates, security personnel, and .etc...<br>
    7.2  Digital & Cyber: firewalls and security software and tools
+8. Agility<br>
+   Allocate or de-allocate resources quickly
+   
    
