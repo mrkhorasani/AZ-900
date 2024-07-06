@@ -44,6 +44,8 @@ When you have an error in an application, you need to troubleshoot only the func
 **Multi-Tenancy:** 
 Cost-saving by sharing computing resources with other cloud users.
 
+--------------
+
 **Cloud Types:**<br>
    1. Public Cloud
    2. Private<br>
