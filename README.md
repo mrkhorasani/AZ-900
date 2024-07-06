@@ -48,8 +48,7 @@ When you have an error in an application, you need to troubleshoot only the func
    3. Hybrid Cloud
 > [!Note]
 > **HIPAA :** Stands for "Health Insurance Portability and Accountability Act" which defines standards to prevent patient data from being disclosed to the public.<br>
-> **Multi-Tenancy :** <br>
-> Cost-saving by sharing computing resources with other cloud users.
+> **Multi-Tenancy :**  Cost-saving by sharing computing resources with other cloud users.
 -------------
 **Cloud Main Service Types:**
 ![saas-paas-iaas](https://github.com/mrkhorasani/AZ-900/assets/51242725/eb733cb2-27e4-4269-9b8c-6281f889be7e)
