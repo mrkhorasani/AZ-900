@@ -43,7 +43,7 @@ When you have an error in an application, you need to troubleshoot only the func
 
 **Multi-Tenancy:** 
 Cost-saving by sharing computing resources with other cloud users.
-$${\color{red}Red}$$
+$${\color{red}**Multi-Tenancy:**}$$
 
    
    
