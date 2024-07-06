@@ -44,10 +44,10 @@ When you have an error in an application, you need to troubleshoot only the func
 **Multi-Tenancy:** 
 Cost-saving by sharing computing resources with other cloud users.
 
-Cloud Types:
-1. Public Cloud
-2. Private<br>
-   is common among companies that have to avoid data disclosure to the public. military services and companies that have to comply with HIPPA.
+**Cloud Types:**
+   1. Public Cloud
+   2. Private<br>
+      is common among companies that have to avoid data disclosure to the public. military services and companies that have to comply with HIPPA.
 > [!Note]
 > **HIPAA:** Stands for "Health Insurance Portability and Accountability Act" which defines standards to prevent patient data from being disclosed to the public.
 
