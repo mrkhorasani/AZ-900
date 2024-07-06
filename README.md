@@ -47,10 +47,10 @@ When you have an error in an application, you need to troubleshoot only the func
       is common among companies that have to avoid data disclosure to the public. military services and companies that have to comply with HIPPA.
    3. Hybrid Cloud
 > [!Note]
-> **HIPAA :** Stands for "Health Insurance Portability and Accountability Act" which defines standards to prevent patient data from being disclosed to the public.<br>
-> **Multi-Tenancy :**  Cost-saving by sharing computing resources with other cloud users.
+> **HIPAA:** Stands for "Health Insurance Portability and Accountability Act" which defines standards to prevent patient data from being disclosed to the public.<br>
+> **Multi-Tenancy:**  Cost-saving by sharing computing resources with other cloud users.
 -------------
-**Cloud Main Service Types:**<br>
+**Cloud Main Services Category:**<br>
 ![Untitled2](https://github.com/mrkhorasani/AZ-900/assets/51242725/94c582a1-e853-4784-a57e-9b52fd0eb1d7)
 
 
