@@ -44,7 +44,7 @@ When you have an error in an application, you need to troubleshoot only the func
 **Multi-Tenancy:** 
 Cost-saving by sharing computing resources with other cloud users.
 
-**Cloud Types:**
+**Cloud Types:**<br>
    1. Public Cloud
    2. Private<br>
       is common among companies that have to avoid data disclosure to the public. military services and companies that have to comply with HIPPA.
