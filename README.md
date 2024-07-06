@@ -40,12 +40,7 @@ When you have an error in an application, you need to troubleshoot only the func
    7.2  Digital & Cyber: firewalls and security software and tools
 8. Agility<br>
    Allocate or de-allocate resources quickly
-
-**Multi-Tenancy:** 
-Cost-saving by sharing computing resources with other cloud users.
-
 --------------
-
 **Cloud Types:**<br>
    1. Public Cloud
    2. Private<br>
@@ -53,5 +48,6 @@ Cost-saving by sharing computing resources with other cloud users.
 > [!Note]
 > **HIPAA:** Stands for "Health Insurance Portability and Accountability Act" which defines standards to prevent patient data from being disclosed to the public.
 
-   
+> **Multi-Tenancy:** 
+> Cost-saving by sharing computing resources with other cloud users.
 
