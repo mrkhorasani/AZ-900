@@ -51,7 +51,8 @@ When you have an error in an application, you need to troubleshoot only the func
 > **Multi-Tenancy :**  Cost-saving by sharing computing resources with other cloud users.
 -------------
 **Cloud Main Service Types:**
-![image](https://github.com/mrkhorasani/AZ-900/assets/51242725/0e39feb2-685c-4219-8978-9d273dcb309e)
+![Untitled2](https://github.com/mrkhorasani/AZ-900/assets/51242725/94c582a1-e853-4784-a57e-9b52fd0eb1d7)
+
 
 
 
