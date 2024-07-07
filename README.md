@@ -59,7 +59,7 @@ When you have an error in an application, you need to troubleshoot only the func
    3. Website Hosting
    4. Backup, Storage and Recovery
 > [!Note]
-> **PaaS** sometimes referred to as the **Serverless Design or Architecture**
+> **PaaS** sometimes referred to as **Serverless Design or Architecture**
 
 
 
