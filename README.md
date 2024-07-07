@@ -61,8 +61,13 @@ When you have an error in an application, you need to troubleshoot only the func
 > [!Note]
 > **PaaS** sometimes referred to as **Serverless Design or Architecture**
 
-
-
+**Common use cases of PaaS:**
+   1. DBMS: DataBase Management Service (Such As Azure SQL or Amazon RDS"Relational Database")
+         1.1. manage by the cloud provider
+         1.2. Support and backup by CSP
+         1.3. Has its monitoring system to optimize database configuration and optimizes by CSP
+   3. Web Application Hosting Service: A runtime for your web application like PHP, JAVA, NodeJS, .NET and .etc
+   4. 
 
 
 
