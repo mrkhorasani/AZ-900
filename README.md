@@ -53,7 +53,7 @@ When you have an error in an application, you need to troubleshoot only the func
 **Cloud Main Services Category:**<be>
 ![image](https://github.com/mrkhorasani/AZ-900/assets/51242725/ed0d94c4-efc1-475a-b26b-1e47c9c4e53c)
 ----------
-**Common use case of IaaS:**
+**Common use cases of IaaS:**
    1. Migrating Workload
    2. Test and Dev
    3. Website Hosting
