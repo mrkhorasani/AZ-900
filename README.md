@@ -19,7 +19,7 @@ Virtual Machine Vs Container Vs Serverless-Computing
 When you have an error in an application, you need to troubleshoot only the function that made a mistake for you separately, not all of the application. So this troubleshooting method doesn't affect all aspects of your application.
 
 --------------
-#**Benefits of Cloud:**
+## **Benefits of Cloud:**
 
 1. Cost Effective
    It does not need much upfront cost and, has a Predictive cost consideration capability
@@ -50,10 +50,10 @@ When you have an error in an application, you need to troubleshoot only the func
 > **HIPAA:** Stands for "Health Insurance Portability and Accountability Act" which defines standards to prevent patient data from being disclosed to the public.<br>
 > **Multi-Tenancy:**  Cost-saving by sharing computing resources with other cloud users.
 -------------
-**Cloud Main Services Category:**<be>
+## **Cloud Main Services Category:**<be>
 ![image](https://github.com/mrkhorasani/AZ-900/assets/51242725/ed0d94c4-efc1-475a-b26b-1e47c9c4e53c)
 ----------
-**Common use cases of IaaS:**
+## **Common use cases of IaaS:**
    1. Migrating Workload
    2. Test and Dev
    3. Website Hosting
@@ -61,7 +61,7 @@ When you have an error in an application, you need to troubleshoot only the func
 > [!Note]
 > **PaaS** sometimes referred to as **Serverless Design or Architecture**
 
-**Common use cases of PaaS:**
+## **Common use cases of PaaS:**
    1. DBMS: DataBase Management Service (Such As Azure SQL or Amazon RDS"Relational Database")
          1.1. manage by the cloud provider<br>
          1.2. Support and backup by CSP<br>
