@@ -19,7 +19,7 @@ Virtual Machine Vs Container Vs Serverless-Computing
 When you have an error in an application, you need to troubleshoot only the function that made a mistake for you separately, not all of the application. So this troubleshooting method doesn't affect all aspects of your application.
 
 --------------
-**Benefits of Cloud:**
+#**Benefits of Cloud:**
 
 1. Cost Effective
    It does not need much upfront cost and, has a Predictive cost consideration capability
@@ -63,10 +63,10 @@ When you have an error in an application, you need to troubleshoot only the func
 
 **Common use cases of PaaS:**
    1. DBMS: DataBase Management Service (Such As Azure SQL or Amazon RDS"Relational Database")
-         1.1. manage by the cloud provider
-         1.2. Support and backup by CSP
-         1.3. Has its monitoring system to optimize database configuration and optimizes by CSP
-   3. Web Application Hosting Service: A runtime for your web application like PHP, JAVA, NodeJS, .NET and .etc
+         1.1. manage by the cloud provider<br>
+         1.2. Support and backup by CSP<br>
+         1.3. Has its monitoring system to optimize database configuration and optimizes by CSP<br>
+   3. Web Application Hosting Service: A runtime for your web application like PHP, JAVA, NodeJS, .NET and .etc<br>
    4. 
 
 
