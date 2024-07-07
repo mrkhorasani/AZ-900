@@ -40,7 +40,7 @@ When you have an error in an application, you need to troubleshoot only the func
    7.2  Digital & Cyber: firewalls and security software and tools
 8. Agility<br>
    Allocate or de-allocate resources quickly
---------------
+---------------
 **Cloud Types:**<br>
    1. Public Cloud
    2. Private Cloud<br>
