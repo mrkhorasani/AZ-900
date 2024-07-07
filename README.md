@@ -51,15 +51,16 @@ When you have an error in an application, you need to troubleshoot only the func
 --------------------------------------------------------------------------------------------------------
 ## **Cloud Main Services Category:**<be>
 ![image](https://github.com/mrkhorasani/AZ-900/assets/51242725/ed0d94c4-efc1-475a-b26b-1e47c9c4e53c)
---------------------------------------------------------------------------------------------------------
-## **Common use cases of IaaS:**
+##IaaS: 
+Stands for Infrastructure As A Service<br>
+**Common use cases of IaaS:**
    1. Migrating Workload
    2. Test and Dev
    3. Website Hosting
    4. Backup, Storage and Recovery
-> [!Note]
-> **PaaS** sometimes referred to as **Serverless Design or Architecture** is a platform for our application, it's anything you may need for your application such as Database, Web Server, etc. By PaaS, you don't need to worry about your OS, monitoring, patching, antiviruses, backup, and other underlying structures like hardware.
-## **Common use cases of PaaS:**
+## PaaS:
+Stands for "Platform As A Service" sometimes referred to as **Serverless Design or Architecture** is a platform for our application, it's anything you may need for your application such as Database, Web Server, etc. By PaaS, you don't need to worry about your OS, monitoring, patching, antiviruses, backup, and other underlying structures like hardware.<br>
+**Common use cases of PaaS:**
    1. DBMS: DataBase Management Service (Such As Azure SQL or Amazon RDS"Relational Database")
          1.1. manage by the cloud provider<br>
          1.2. Support and backup by CSP<br>
@@ -70,5 +71,5 @@ When you have an error in an application, you need to troubleshoot only the func
          2.3. No runtime management (Patching is done automatically)
    3.  Container Orchestrator(like Azure container services which coupled with docker, Amazon Elastic container services and google container engine and google Kubernetes engine)
    4.  Big Data: We have a built cluster under this category. it's more like a warehouse, which just needs to specify its parameters such as "Size and Type" to get it up and running quickly. We have an interface to interact with this platform on certain tools to monitor the help. Monitoring and Patching is also the vendor's responsibility. Some examples of Big  Data services are Azure Data Lake, Microsoft HDInsight, Amazon REDSHIFT, AWS EMR"Elastic MapReduce", and Google's Big Table.
-## **SaaS: ** 
+## SaaS:
 Stands for "Software As A Service" is a method of software delivery, usually with an annual or monthly subscription fee
