@@ -58,7 +58,8 @@ When you have an error in an application, you need to troubleshoot only the func
    2. Test and Dev
    3. Website Hosting
    4. Backup, Storage and Recovery
-
+> [!Note]
+> Paas sometimes referred to as the **Serverless Design or Architecture**
 
 
 
