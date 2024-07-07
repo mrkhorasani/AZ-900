@@ -45,6 +45,7 @@ When you have an error in an application, you need to troubleshoot only the func
 > [!Note]
 > **HIPAA:** Stands for "Health Insurance Portability and Accountability Act" which defines standards to prevent patient data from being disclosed to the public.<br>
 > **Multi-Tenancy:**  Cost-saving by sharing computing resources with other cloud users.
+----------------------------------------------------------------------------
 ## Cloud Main Services Category:
 ![image](https://github.com/mrkhorasani/AZ-900/assets/51242725/ed0d94c4-efc1-475a-b26b-1e47c9c4e53c)
 ## IaaS: 
