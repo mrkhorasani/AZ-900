@@ -58,19 +58,15 @@ When you have an error in an application, you need to troubleshoot only the func
    3. Website Hosting
    4. Backup, Storage and Recovery
 > [!Note]
-> **PaaS** sometimes referred to as **Serverless Design or Architecture**
-
+> **PaaS** sometimes referred to as **Serverless Design or Architecture** is a platform for our application, it's anything you may need for your application such as Database, Web Server, etc. By Paas, you don't need to worry about your OS, monitoring, patching, antiviruses, backup, and other underlying structures like hardware.
 ## **Common use cases of PaaS:**
    1. DBMS: DataBase Management Service (Such As Azure SQL or Amazon RDS"Relational Database")
          1.1. manage by the cloud provider<br>
          1.2. Support and backup by CSP<br>
          1.3. Has its monitoring system to optimize database configuration and optimizes by CSP<br>
-   3. Web Application Hosting Service: A runtime for your web application like PHP, JAVA, NodeJS, .NET and .etc<br>
-   4. 
-
-
-
-
-
-
-
+   2. Web Application Hosting Service: A runtime application (like Azure Webapps, Elastic Bean Stalk, and GAE) for your web application like PHP, JAVA, NodeJS, .NET, and .etc<br>
+         2.1. There is built-in application monitoring
+         2.2. Error logging
+         2.3. No runtime management (Patching is done automatically)
+   3.  Container Orchestrator(like Azure container services which coupled with docker, Amazon Elastic container services and google container engine and google Kubernetes engine)
+   4.  Big Data: Under this category, we have a built cluster. it's more like a warehouse. Just need to specify some parameters such as "Size and Type" to get it up and running quickly. We have an interface to interact with this platform on certain tools to monitor the help. Monitoring and Patching is also the vendor's responsibility. Some examples of Big  Data services are Azure Data Lake, Microsoft HDInsight, Amazon REDSHIFT, AWS EMR"Elastic MapReduce", and Google's Big Table.
