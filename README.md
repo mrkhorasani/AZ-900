@@ -58,7 +58,7 @@ When you have an error in an application, you need to troubleshoot only the func
    3. Website Hosting
    4. Backup, Storage and Recovery
 > [!Note]
-> **PaaS** sometimes referred to as **Serverless Design or Architecture** is a platform for our application, it's anything you may need for your application such as Database, Web Server, etc. By Paas, you don't need to worry about your OS, monitoring, patching, antiviruses, backup, and other underlying structures like hardware.
+> **PaaS** sometimes referred to as **Serverless Design or Architecture** is a platform for our application, it's anything you may need for your application such as Database, Web Server, etc. By PaaS, you don't need to worry about your OS, monitoring, patching, antiviruses, backup, and other underlying structures like hardware.
 ## **Common use cases of PaaS:**
    1. DBMS: DataBase Management Service (Such As Azure SQL or Amazon RDS"Relational Database")
          1.1. manage by the cloud provider<br>
@@ -69,4 +69,4 @@ When you have an error in an application, you need to troubleshoot only the func
          2.2. Error logging
          2.3. No runtime management (Patching is done automatically)
    3.  Container Orchestrator(like Azure container services which coupled with docker, Amazon Elastic container services and google container engine and google Kubernetes engine)
-   4.  Big Data: Under this category, we have a built cluster. it's more like a warehouse. Just need to specify some parameters such as "Size and Type" to get it up and running quickly. We have an interface to interact with this platform on certain tools to monitor the help. Monitoring and Patching is also the vendor's responsibility. Some examples of Big  Data services are Azure Data Lake, Microsoft HDInsight, Amazon REDSHIFT, AWS EMR"Elastic MapReduce", and Google's Big Table.
+   4.  Big Data: We have a built cluster under this category. it's more like a warehouse. Just need to specify some parameters such as "Size and Type" to get it up and running quickly. We have an interface to interact with this platform on certain tools to monitor the help. Monitoring and Patching is also the vendor's responsibility. Some examples of Big  Data services are Azure Data Lake, Microsoft HDInsight, Amazon REDSHIFT, AWS EMR"Elastic MapReduce", and Google's Big Table.
