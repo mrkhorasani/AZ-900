@@ -75,7 +75,7 @@ Microsoft Azure data centers are located around the world, these data centers ar
 Azure has more global regions than any other cloud provider as of today.
 Azure is generally available in 42 regions around the world, and it has 12 more regions planned and announced.
 ### Azure Special Region
-These special regions are specifically for the U.S government, and include the following regions:
+These special regions are specifically for the U.S government agency, and include the following regions:
    1. U.S Department of Defense (U.S DOD) Central
    2. U.S Government of Virginia
    3. U.S Government of IOWA
