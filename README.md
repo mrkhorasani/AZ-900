@@ -37,7 +37,7 @@ When you have an error in an application, you need to troubleshoot only the func
    7.2  Digital & Cyber: firewalls and security software and tools
 8. Agility<br>
    Allocate or de-allocate resources quickly
-## **Cloud Types:**<br>
+## **Cloud Types
    1. Public Cloud
    2. Private Cloud<br>
       is common among companies that have to avoid data disclosure to the public. military services and companies that have to comply with **HIPPA**.
