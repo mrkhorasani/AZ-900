@@ -74,6 +74,6 @@ Stands for "Software As A Service" is a method of software delivery, usually wit
 Microsoft Azure data centers are located around the world, these data centers are organized and made available to end users by region. Each region is a geographical area on the planet containing at least one, but potentially multiple data centers. 
 Azure has more global regions than any other cloud provider as of today.
 Azure is generally available in 42 regions around the world, and it has 12 more regions planned and announced.
-> [!Important]
-> **Azure Special Region** i
+### Azure Special Region
+These special regions include the U.S Department of Defense (U.S DOD)
 
