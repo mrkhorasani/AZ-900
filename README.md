@@ -68,5 +68,12 @@ Stands for "Platform As A Service" sometimes referred to as **Serverless Design 
          2.3. No runtime management (Patching is done automatically)
    3.  Container Orchestrator(like Azure container services which coupled with docker, Amazon Elastic container services and google container engine and google Kubernetes engine)
    4.  Big Data: We have a built cluster under this category. it's more like a warehouse, which just needs to specify its parameters such as "Size and Type" to get it up and running quickly. We have an interface to interact with this platform on certain tools to monitor the help. Monitoring and Patching is also the vendor's responsibility. Some examples of Big  Data services are Azure Data Lake, Microsoft HDInsight, Amazon REDSHIFT, AWS EMR"Elastic MapReduce", and Google's Big Table.
-## SaaS:
-Stands for "Software As A Service" is a method of software delivery, usually with an annual or monthly subscription fee
+## SaaS:e
+Stands for "Software As A Service" is a method of software delivery, usually with an annual or monthly subscription fee, for instance, Office 365, Gmail, Salesforce CRM, etc.
+## Azure Regions:
+Microsoft Azure data centers are located around the world, these data centers are organized and made available to end users by region. Each region is a geographical area on the planet containing at least one, but potentially multiple data centers. 
+Azure has more global regions than any other cloud provider as of today.
+Azure is generally available in 42 regions around the world, and it has 12 more regions planned and announced.
+> [!Important]
+> **Azure Special Region** i
+
