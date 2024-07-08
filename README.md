@@ -90,7 +90,7 @@ These are isolated physical and logical from Azure.
 ### Reginal Paired
 Each data center in every region is coupled and synced with another in the same area to implement redundancy and replicate cloud resources such as VMs, Storage, etc. This issue aims to  implement zero downtime service in the case of natural disasters, power outages, physical network outages, civil unrest, etc. 
 This link shows the list of paired regions https://learn.microsoft.com/en-us/azure/reliability/cross-region-replication-azure
-## Feature Availability
+### Feature Availability
 It means that not all Azure services are available in all regions. Some services such as Active Directory, DNS, and Traffic Manager are global, while others are hosted in specific regions.
 
 
