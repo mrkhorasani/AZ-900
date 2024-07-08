@@ -17,7 +17,7 @@ Virtual Machine Vs Container Vs Serverless-Computing
 > [!Note]  
 > In the cloud, you have to pay for VMs and Containers idle times, but you only pay for the cost of Serverless-Computing runtime.
 When you have an error in an application, you need to troubleshoot only the function that made a mistake for you separately, not all of the application. So this troubleshooting method doesn't affect all aspects of your application.
-## Benefits of Cloud:
+## Benefits of Cloud
 1. Cost Effective
    It does not need much upfront cost and, has a Predictive cost consideration capability
 2. Scalability <br>
@@ -46,16 +46,16 @@ When you have an error in an application, you need to troubleshoot only the func
 > **HIPAA:** Stands for "Health Insurance Portability and Accountability Act" which defines standards to prevent patient data from being disclosed to the public.<br>
 > **Multi-Tenancy:**  Cost-saving by sharing computing resources with other cloud users.
 ----------------------------------------------------------------------------
-## Cloud Main Services Category:
+## Cloud Main Services Category
 ![image](https://github.com/mrkhorasani/AZ-900/assets/51242725/ed0d94c4-efc1-475a-b26b-1e47c9c4e53c)
-## IaaS: 
+## IaaS 
 Stands for Infrastructure As A Service<br>
 **Common use cases of IaaS:**
    1. Migrating Workload
    2. Test and Dev
    3. Website Hosting
    4. Backup, Storage and Recovery
-## PaaS:
+## PaaS
 Stands for "Platform As A Service" sometimes referred to as **Serverless Design or Architecture** is a platform for our application, it's anything you may need for your application such as Database, Web Server, etc. By PaaS, you don't need to worry about your OS, monitoring, patching, antiviruses, backup, and other underlying structures like hardware.<br>
 **Common use cases of PaaS:**
    1. DBMS: DataBase Management Service (Such As Azure SQL or Amazon RDS"Relational Database")
@@ -68,9 +68,9 @@ Stands for "Platform As A Service" sometimes referred to as **Serverless Design 
          2.3. No runtime management (Patching is done automatically)
    3.  Container Orchestrator(like Azure container services which coupled with docker, Amazon Elastic container services and google container engine and google Kubernetes engine)
    4.  Big Data: We have a built cluster under this category. it's more like a warehouse, which just needs to specify its parameters such as "Size and Type" to get it up and running quickly. We have an interface to interact with this platform on certain tools to monitor the help. Monitoring and Patching is also the vendor's responsibility. Some examples of Big  Data services are Azure Data Lake, Microsoft HDInsight, Amazon REDSHIFT, AWS EMR"Elastic MapReduce", and Google's Big Table.
-## SaaS:e
+## SaaS
 Stands for "Software As A Service" is a method of software delivery, usually with an annual or monthly subscription fee, for instance, Office 365, Gmail, Salesforce CRM, etc.
-## Azure Regions:
+## Azure Regions
 Microsoft Azure data centers are located around the world, these data centers are organized and made available to end users by region. Each region is a geographical area on the planet containing at least one, but potentially multiple data centers. 
 Azure has more global regions than any other cloud provider as of today.
 Azure is generally available in 42 regions around the world, and it has more than 12 regions planned and announced.
@@ -87,6 +87,6 @@ These are isolated physical and logical from Azure.
    3. GERMANY: T-Systems(Dutch telecom company) manages this area of azure
       3.1. Central
       3.2. North-East
-### Reginal Paired:
+### Reginal Paired
 Each data center in every region is coupled and synced with another in the same area to implement redundancy and replicate cloud resources such as VMs, Storage, etc. This issue aims to  implement zero downtime service in the case of natural disasters, power outages, physical network outages, civil unrest, etc. 
 This link shows the list of paired regions https://learn.microsoft.com/en-us/azure/reliability/cross-region-replication-azure
