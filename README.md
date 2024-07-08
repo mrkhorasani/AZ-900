@@ -73,9 +73,20 @@ Stands for "Software As A Service" is a method of software delivery, usually wit
 ## Azure Regions:
 Microsoft Azure data centers are located around the world, these data centers are organized and made available to end users by region. Each region is a geographical area on the planet containing at least one, but potentially multiple data centers. 
 Azure has more global regions than any other cloud provider as of today.
-Azure is generally available in 42 regions around the world, and it has 12 more regions planned and announced.
+Azure is generally available in 42 regions around the world, and it has more than 12 regions planned and announced.
 ### Azure Special Region
-These special regions are specifically for the U.S government agency, and include the following regions:
-   1. U.S Department of Defense (U.S DOD) Central
-   2. U.S Government of Virginia
-   3. U.S Government of IOWA
+These special regions are specifically for the U.S government agency and partners that are screened by U.S persons and include compliance certifications, and located in the following areas:
+   1. U.S DOD (Department of Defense)
+      1.1. Central
+      1.2. Virginia
+      1.3. IOWA
+These are isolated physical and logical from Azure. 
+   2. CHINA: Microsoft Azure operated by 21Vianet (Azure in China) is a physically separated instance of cloud services located in China
+      2.1. East
+      2.2. North
+   3. GERMANY: T-Systems(Dutch telecom company) manages this area of azure
+      3.1. Central
+      3.2. North-East
+### Reginal Paired:
+Each data center in every region is coupled and synced with another in the same area to implement redundancy and replicate cloud resources such as VMs, Storage, etc. This issue aims to  implement zero downtime service in the case of natural disasters, power outages, physical network outages, civil unrest, etc. 
+This link shows the list of paired regions https://learn.microsoft.com/en-us/azure/reliability/cross-region-replication-azure
