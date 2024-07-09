@@ -9,7 +9,7 @@
 
 **Cloud computing** is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources that can be rapidly provisioned and released with minimal management effort or service provider interaction. 
 
-**Federal Chief Information Officer of the United States says,** There was a time when every household, town, farm, or village had its water well. Today, shared public utilities give us access to clean water by simply turning on the tap; cloud computing works similarly. Just like water from the tap in your kitchen, cloud computing services can be turned on or off quickly as needed. Like at the water company, there is a team of dedicated professionals making sure the service provided is safe, secure, and available on a 24/7 basis. When the tap isn't on, not only are you saving water, but also you aren't paying for resources you don't currently need.
+**Federal Chief Information Officer of the United States says,** There was a time when every household, town, farm, or village had its water well. Today, shared public utilities give us access to clean water by simply turning on the tap; cloud computing works similarly. Just like turning on water from your kitchen tap, cloud computing services can be quickly activated or deactivated as needed. Like at the water company, there is a team of dedicated professionals making sure the service provided is safe, secure, and available on a 24/7 basis. When the tap isn't on, not only are you saving water, but also you aren't paying for resources you don't currently need.
 https://www.brookings.edu/wp-content/uploads/2012/04/0407_cloud_computing_kundra_remarks.pdf
 
 Virtual Machine Vs Container Vs Serverless-Computing
@@ -40,7 +40,7 @@ When you have an error in an application, you need to troubleshoot only the func
 ## Cloud Types
    1. Public Cloud
    2. Private Cloud<br>
-      is common among companies that have to avoid data disclosure to the public. military services and companies that have to comply with **HIPPA**.
+      is common among companies that have to avoid data disclosure to the public. Military services and companies that have to comply with **HIPPA**.
    3. Hybrid Cloud
 > [!Note]
 > **HIPAA:** Stands for "Health Insurance Portability and Accountability Act" which defines standards to prevent patient data from being disclosed to the public.<br>
@@ -67,13 +67,13 @@ Stands for "Platform As A Service" sometimes referred to as **Serverless Design 
          2.2. Error logging
          2.3. No runtime management (Patching is done automatically)
    3.  Container Orchestrator(like Azure container services which coupled with docker, Amazon Elastic container services and google container engine and google Kubernetes engine)
-   4.  Big Data: We have a built cluster under this category. it's more like a warehouse, which just needs to specify its parameters such as "Size and Type" to get it up and running quickly. We have an interface to interact with this platform on certain tools to monitor the help. Monitoring and Patching is also the vendor's responsibility. Some examples of Big  Data services are Azure Data Lake, Microsoft HDInsight, Amazon REDSHIFT, AWS EMR"Elastic MapReduce", and Google's Big Table.
-## SaaS
-Stands for "Software As A Service" is a method of software delivery, usually with an annual or monthly subscription fee, for instance, Office 365, Gmail, Salesforce CRM, etc.
+   4.  Big Data: We have a built cluster under this category. It's more like a warehouse, which just needs to specify related parameters such as "Size and Type" to get it up and running quickly. We have an interface to interact with this platform on certain tools to monitor the help. Monitoring and Patching is also the vendor's responsibility. Some examples of Big  Data services are Azure Data Lake, Microsoft HDInsight, Amazon REDSHIFT, AWS EMR"Elastic MapReduce", and Google's Big Table.
+## SaaS(Software as a Service)
+This is a method of software delivery typically with an annual or monthly subscription fee, like Office 365, Gmail, Salesforce CRM, etc.
 ## Azure Regions
 Microsoft Azure data centers are located around the world, these data centers are organized and made available to end users by region. Each region is a geographical area on the planet containing at least one, but potentially multiple data centers. 
 Azure has more global regions than any other cloud provider as of today.
-Azure is generally available in 42 regions around the world, and it has more than 12 regions planned and announced.
+Azure is available in 42 regions worldwide, with more than 12 additional regions planned and announced.
 ### Azure Special Region
 These special regions are specifically for the U.S government agency and partners that are screened by U.S persons and include compliance certifications, and located in the following areas:
    1. U.S DOD (Department of Defense)
@@ -91,6 +91,11 @@ These are isolated physical and logical from Azure.
 Each data center in every region is coupled and synced with another in the same area to implement redundancy and replicate cloud resources such as VMs, Storage, etc. This issue aims to  implement zero downtime service in the case of natural disasters, power outages, physical network outages, civil unrest, etc. 
 This link shows the list of paired regions https://learn.microsoft.com/en-us/azure/reliability/cross-region-replication-azure
 ### Feature Availability
-It means that not all Azure services are available in all regions. Some services such as Active Directory, DNS, and Traffic Manager are global, while others are hosted in specific regions.
-
-
+It means that not all Azure services are available in all regions. Some services like Active Directory, DNS, and Traffic Manager are global, while others are hosted in dedicated regions.
+## Availability Zone
+AZ are separated locations within a region. Each AZ is made up of one or more data centers that are equipped with independent power, cooling, and network. It is designed to have an isolated boundary. There are three separate AZs in all enable regions. 
+![image](https://github.com/mrkhorasani/AZ-900/assets/51242725/972643a4-f6d0-485c-b05d-86259f765b76)
+## Availability Sets
+This is a way to ensure our application and services remain online and aren't affected by software and hardware updates and maintenance time. To keep online services during the update of software and hardware in these data centers done through two mechanisms:
+   1. Update Domain: Servers in an update domain perform updates sequentially. An update domain consists of all servers where an application is installed in order of redundancy, and servers reside on separate racks. Upgrading processes such as installing patches, firmware, and BIOS on these servers are done sequentially to ensure app and service outages do not affect end-users' service accessibility.
+   2. Fault Domain
