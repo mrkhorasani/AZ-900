@@ -68,10 +68,10 @@ Stands for "Platform As A Service" sometimes referred to as **Serverless Design 
          2.3. No runtime management (Patching is done automatically)
    3.  Container Orchestrator(like Azure container services which coupled with docker, Amazon Elastic container services and google container engine and google Kubernetes engine)
    4.  Big Data: We have a built cluster under this category. It's more like a warehouse, which just needs to specify related parameters such as "Size and Type" to get it up and running quickly. We have an interface to interact with this platform on certain tools to monitor the help. Monitoring and Patching is also the vendor's responsibility. Some examples of Big  Data services are Azure Data Lake, Microsoft HDInsight, Amazon REDSHIFT, AWS EMR"Elastic MapReduce", and Google's Big Table.
-## SaaS(Software as a Service)
-This is a method of software delivery typically with an annual or monthly subscription fee, like Office 365, Gmail, Salesforce CRM, etc.
+## SaaS
+Software as a Service is a method of software delivery. Typically, with an annual or monthly subscription fee, like Office 365, Gmail, Salesforce CRM, etc.
 ## Azure Regions
-Microsoft Azure data centers are located around the world, these data centers are organized and made available to end users by region. Each region is a geographical area on the planet containing at least one, but potentially multiple data centers. 
+Microsoft Azure data centers are situated worldwide and are organized by region to provide access to end users. Each region is a geographical area on the planet that houses at least one, but potentially multiple data centers.
 Azure has more global regions than any other cloud provider as of today.
 Azure is available in 42 regions worldwide, with more than 12 additional regions planned and announced.
 ### Azure Special Region
@@ -97,5 +97,7 @@ AZ are separated locations within a region. Each AZ is made up of one or more da
 ![image](https://github.com/mrkhorasani/AZ-900/assets/51242725/972643a4-f6d0-485c-b05d-86259f765b76)
 ## Availability Sets
 This is a way to ensure our application and services remain online and aren't affected by software and hardware updates and maintenance time. To keep online services during the update of software and hardware in these data centers done through two mechanisms:
-   1. Update Domain: Servers in an update domain perform updates sequentially. An update domain consists of all servers where an application is installed in order of redundancy, and servers reside on separate racks. Upgrading processes such as installing patches, firmware, and BIOS on these servers are done sequentially to ensure app and service outages do not affect end-users' service accessibility.
-   2. Fault Domain
+   ### 1. Update Domain
+   Servers in an update domain perform updates sequentially. An update domain consists of all servers where an application is installed in order of redundancy, and servers reside on separate racks. Upgrading processes such as installing patches, firmware, and BIOS on these servers are done sequentially to ensure app and service outages do not affect end-users' service accessibility.
+   ### 2. Fault Domain
+This one provides physical separation of workloads across different hardware in the data centers. It means that we have several racks with separated power supply, cooling, and network connection paths that consist of multiple servers, so in the case of hardware upgrades or maintenance, services(apps) are always accessible and available because services and apps reside on several physical servers across the multiple rack or fault domain.
