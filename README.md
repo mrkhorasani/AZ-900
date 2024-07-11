@@ -101,3 +101,28 @@ This is a way to ensure our application and services remain online and aren't af
    Servers in an update domain perform updates sequentially. An update domain consists of all servers where an application is installed in order of redundancy, and servers reside on separate racks. Upgrading processes such as installing patches, firmware, and BIOS on these servers are done sequentially to ensure app and service outages do not affect end-users' service accessibility.
    ### 2. Fault Domain
 This one provides physical separation of workloads across different hardware in the data centers. It means that we have several racks with separated power supply, cooling, and network connection paths that consist of multiple servers, so in the case of hardware upgrades or maintenance, services(apps) are always accessible and available because services and apps reside on several physical servers across the multiple rack or fault domain.
+## What is a Resource Group?
+Definition: A resource group is a logical container for Azure resources, which include virtual machines, databases, storage accounts, and more.
+Purpose: It allows for the management and organization of resources in a structured way. You can deploy, update, and delete all the resources in a resource group together.
+Management Scope: Resources in a resource group share the same lifecycle. You can apply management and access control policies, such as role-based access control (RBAC), to the resource group.
+### Key Features of Resource Groups
+**Organizational Unit:**
+It helps organize resources logically, making managing and maintaining them easier.
+**Lifecycle Management:**
+Resources in the same resource group can be managed, deployed, and deleted together. This makes resource groups an efficient way to handle the lifecycle of multiple resources.
+**Access Control:**
+You can apply access control policies to the entire resource group. This means that you can grant permissions to users or groups at the resource group level, which then applies to all resources within the group.
+**Dependency Management:**
+Helps in managing dependencies between resources during deployment. For example, you can ensure that a database is created before the web application that depends on it.
+**Monitoring and Billing:**
+You can view and manage costs, as well as monitor the health and performance of resources within a resource group collectively.
+Best Practices for Using Resource Groups
+**Logical Grouping:**
+Group resources that share the same lifecycle, such as all resources related to a particular application or environment (e.g., development, testing, production).
+**Naming Conventions:**
+Use consistent and descriptive names for resource groups to easily identify and manage them.
+**Tagging:**
+Use tags to categorize resources within a resource group, which can help in organizing and tracking usage and costs.
+**Access Control:**
+Implement appropriate access control policies to secure resources and ensure that only authorized users can manage them.
+By organizing resources into resource groups, Azure users can manage their cloud resources more effectively, ensuring that related resources are managed as a cohesive unit. This organizational structure simplifies management tasks and enhances the overall efficiency of resource management in Azure.
