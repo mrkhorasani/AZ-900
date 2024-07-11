@@ -101,20 +101,22 @@ This is a way to ensure our application and services remain online and aren't af
    Servers in an update domain perform updates sequentially. An update domain consists of all servers where an application is installed in order of redundancy, and servers reside on separate racks. Upgrading processes such as installing patches, firmware, and BIOS on these servers are done sequentially to ensure app and service outages do not affect end-users' service accessibility.
    ### 2. Fault Domain
 This one provides physical separation of workloads across different hardware in the data centers. It means that we have several racks with separated power supply, cooling, and network connection paths that consist of multiple servers, so in the case of hardware upgrades or maintenance, services(apps) are always accessible and available because services and apps reside on several physical servers across the multiple rack or fault domain.
+
 ## Resource Group
 **Definition:** A resource group is a logical container for Azure resources, which include virtual machines, databases, storage accounts, and more.
 **Purpose:** It allows for the management and organization of resources in a structured way. You can deploy, update, and delete all the resources in a resource group together.
 **Management Scope:** Resources in a resource group share the same lifecycle. You can apply management and access control policies, such as role-based access control (RBAC), to the resource group.
+
 ### Key Features of Resource Groups
-**Organizational Unit:**
+**1. Organizational Unit:**
 It helps organize resources logically, making managing and maintaining them easier.
-**Lifecycle Management:**
+** 2. Lifecycle Management:**
 Resources in the same resource group can be managed, deployed, and deleted together. This makes resource groups an efficient way to handle the lifecycle of multiple resources.
-**Access Control:**
+** 3. Access Control:**
 You can apply access control policies to the entire resource group. This means you can grant permissions to users or groups at the resource group level, which then applies to all resources within the group.
-**Dependency Management:**
+** 4. Dependency Management:**
 Helps in managing dependencies between resources during deployment. For example, you can ensure a database is created before the web application that depends on it.
-**Monitoring and Billing:**
+** 5. Monitoring and Billing:**
 You can view and manage costs and monitor the health and performance of resources within a resource group collectively.
 **Best Practices for Using Resource Groups**
    1. Logical Grouping:
