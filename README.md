@@ -119,7 +119,7 @@ Helps in managing dependencies between resources during deployment. For example,
 5. **Monitoring and Billing**:<br>
 You can view and manage costs and monitor the health and performance of resources within a resource group collectively.
 
-**Best Practices for Using Resource Groups**<br>
+**Best Practices for Using Resource Groups**
 1. Logical Grouping:<br>
 Group resources that share the same lifecycle, such as all resources related to a particular application or environment (e.g., development, testing, production).<br>
 2. Naming Conventions:<br>
@@ -127,5 +127,6 @@ Use consistent and descriptive names for resource groups to easily identify and 
 3. Tagging:<br>
 Use tags to categorize resources within a resource group, which can help in organizing and tracking usage and costs.<br>
 4. Access Control:<br>
-Implement appropriate access control policies to secure resources and ensure that only authorized users can manage them.<br>
+Implement appropriate access control policies to secure resources and ensure that only authorized users can manage them.
+
 By organizing resources into resource groups, Azure users can manage their cloud resources more effectively, ensuring that related resources are managed as a cohesive unit. This organizational structure simplifies management tasks and enhances the overall efficiency of resource management in Azure.
