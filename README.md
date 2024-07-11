@@ -105,17 +105,18 @@ This one provides physical separation of workloads across different hardware in 
 ## Resource Group
 **Definition:** A resource group is a logical container for Azure resources, which include virtual machines, databases, storage accounts, and more.
 **Purpose:** It allows for the management and organization of resources in a structured way. You can deploy, update, and delete all the resources in a resource group together.
-**Management Scope:** Resources in a resource group share the same lifecycle. You can apply management and access control policies, such as role-based access control (RBAC), to the resource group.<br>
+**Management Scope:** Resources in a resource group share the same lifecycle. You can apply management and access control policies, such as role-based access control (RBAC), to the resource group.
+
 ### Key Features of Resource Groups
-**1. Organizational Unit:**<br>
+   **1. Organizational Unit:**<br>
 It helps organize resources logically, making managing and maintaining them easier.<br>
-** 2. Lifecycle Management:**<br>
+   ** 2. Lifecycle Management:**<br>
 Resources in the same resource group can be managed, deployed, and deleted together. This makes resource groups an efficient way to handle the lifecycle of multiple resources.<br>
-** 3. Access Control:**<br>
+   ** 3. Access Control:**<br>
 You can apply access control policies to the entire resource group. This means you can grant permissions to users or groups at the resource group level, which then applies to all resources within the group.<br>
-** 4. Dependency Management:**<br>
+   ** 4. Dependency Management:**<br>
 Helps in managing dependencies between resources during deployment. For example, you can ensure a database is created before the web application that depends on it.<b>
-** 5. Monitoring and Billing:**<br>
+   ** 5.Monitoring and Billing:**<br>
 You can view and manage costs and monitor the health and performance of resources within a resource group collectively.<br>
 **Best Practices for Using Resource Groups**<br>
    1. Logical Grouping:<br>
