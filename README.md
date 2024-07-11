@@ -105,25 +105,25 @@ This one provides physical separation of workloads across different hardware in 
 ## Resource Group
 **Definition:** A resource group is a logical container for Azure resources, which include virtual machines, databases, storage accounts, and more.
 **Purpose:** It allows for the management and organization of resources in a structured way. You can deploy, update, and delete all the resources in a resource group together.
-**Management Scope:** Resources in a resource group share the same lifecycle. You can apply management and access control policies, such as role-based access control (RBAC), to the resource group.<b>
-### Key Features of Resource Groups
-**1. Organizational Unit:**<b>
-It helps organize resources logically, making managing and maintaining them easier.<b>
-** 2. Lifecycle Management:**<b>
-Resources in the same resource group can be managed, deployed, and deleted together. This makes resource groups an efficient way to handle the lifecycle of multiple resources.<b>
-** 3. Access Control:**<b>
-You can apply access control policies to the entire resource group. This means you can grant permissions to users or groups at the resource group level, which then applies to all resources within the group.<b>
-** 4. Dependency Management:**<b>
+**Management Scope:** Resources in a resource group share the same lifecycle. You can apply management and access control policies, such as role-based access control (RBAC), to the resource group.<br>
+### Key Features of Resource Groups<br>
+**1. Organizational Unit:**<br>
+It helps organize resources logically, making managing and maintaining them easier.<br>
+** 2. Lifecycle Management:**<br>
+Resources in the same resource group can be managed, deployed, and deleted together. This makes resource groups an efficient way to handle the lifecycle of multiple resources.<br>
+** 3. Access Control:**<br>
+You can apply access control policies to the entire resource group. This means you can grant permissions to users or groups at the resource group level, which then applies to all resources within the group.<br>
+** 4. Dependency Management:**<br>
 Helps in managing dependencies between resources during deployment. For example, you can ensure a database is created before the web application that depends on it.<b>
-** 5. Monitoring and Billing:**<b>
-You can view and manage costs and monitor the health and performance of resources within a resource group collectively.<b>
-**Best Practices for Using Resource Groups**<b>
-   1. Logical Grouping:<b>
+** 5. Monitoring and Billing:**<br>
+You can view and manage costs and monitor the health and performance of resources within a resource group collectively.<br>
+**Best Practices for Using Resource Groups**<br>
+   1. Logical Grouping:<br>
 Group resources that share the same lifecycle, such as all resources related to a particular application or environment (e.g., development, testing, production).<b>
-   2. Naming Conventions:<b>
-Use clear and consistent names for resource groups to make them easy to identify and manage.<b>
-   3. Tagging:<b>
-Use tags to categorize resources within a resource group, which can help in organizing and tracking usage and costs.<b>
-   4. Access Control:<b>
-Implement proper access control policies to secure resources and ensure only authorized users can manage them.<b>
+   2. Naming Conventions:<br>
+Use clear and consistent names for resource groups to make them easy to identify and manage.<br>
+   3. Tagging:<br>
+Use tags to categorize resources within a resource group, which can help in organizing and tracking usage and costs.<br>
+   4. Access Control:<br>
+Implement proper access control policies to secure resources and ensure only authorized users can manage them.<br>
 By organizing resources into resource groups, Azure users can manage their cloud resources more effectively, ensuring that related resources are managed as a cohesive unit. This organizational structure simplifies management tasks and enhances the overall efficiency of resource management in Azure.
