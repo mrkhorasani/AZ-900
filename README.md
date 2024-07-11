@@ -106,7 +106,7 @@ This one provides physical separation of workloads across different hardware in 
 **Definition:** A resource group is a logical container for Azure resources, which include virtual machines, databases, storage accounts, and more.
 **Purpose:** It allows for the management and organization of resources in a structured way. You can deploy, update, and delete all the resources in a resource group together.
 **Management Scope:** Resources in a resource group share the same lifecycle. You can apply management and access control policies, such as role-based access control (RBAC), to the resource group.<br>
-### Key Features of Resource Groups<br>
+### Key Features of Resource Groups
 **1. Organizational Unit:**<br>
 It helps organize resources logically, making managing and maintaining them easier.<br>
 ** 2. Lifecycle Management:**<br>
