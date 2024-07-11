@@ -108,15 +108,15 @@ This one provides physical separation of workloads across different hardware in 
 **Management Scope:** Resources in a resource group share the same lifecycle. You can apply management and access control policies, such as role-based access control (RBAC), to the resource group.<br>
 
 ### Key Features of Resource Groups
-1. Organizational Unit:<br>
+1. **Organizational Unit**:<br>
 It helps organize resources logically, making managing and maintaining them easier.
-2. Lifecycle Management:<br>
+2. **Lifecycle Management**:<br>
 Resources in the same resource group can be managed, deployed, and deleted together. This makes resource groups an efficient way to handle the lifecycle of multiple resources.
-3. Access Control:<br>
+3. **Access Control**:<br>
 You can apply access control policies to the entire resource group. This means that you can grant permissions to users or groups at the resource group level, which then applies to all resources within the group.
-4. Dependency Management:<br>
+4. **Dependency Management**:<br>
 Helps in managing dependencies between resources during deployment. For example, you can ensure that a database is created before the web application that depends on it.
-5. Monitoring and Billing:<br>
+5. **Monitoring and Billing**:<br>
 You can view and manage costs and monitor the health and performance of resources within a resource group collectively.
 
 **Best Practices for Using Resource Groups**<br>
@@ -124,8 +124,8 @@ You can view and manage costs and monitor the health and performance of resource
 Group resources that share the same lifecycle, such as all resources related to a particular application or environment (e.g., development, testing, production).<br>
 2. Naming Conventions:<br>
 Use consistent and descriptive names for resource groups to easily identify and manage them.<br>
-3. Tagging:
+3. Tagging:<br>
 Use tags to categorize resources within a resource group, which can help in organizing and tracking usage and costs.<br>
-4. Access Control:
-Implement appropriate access control policies to secure resources and ensure that only authorized users can manage them.
+4. Access Control:<br>
+Implement appropriate access control policies to secure resources and ensure that only authorized users can manage them.<br>
 By organizing resources into resource groups, Azure users can manage their cloud resources more effectively, ensuring that related resources are managed as a cohesive unit. This organizational structure simplifies management tasks and enhances the overall efficiency of resource management in Azure.
