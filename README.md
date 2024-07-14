@@ -130,7 +130,7 @@ The Azure Portal is a web-based interface that allows you to manage your Azure r
 
 Steps to Connect:
 Navigate to the Azure Portal.
-Sign in with your Azure account credentials.
+Sign in with your [Azure account](https://portal.azure.com/) credentials.
 Once logged in, you can manage your resources using the graphical user interface.
 2. Azure CLI
 Azure CLI (Command-Line Interface) is a cross-platform command-line tool for managing Azure resources.
