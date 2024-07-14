@@ -124,8 +124,7 @@ You can view and manage costs and monitor the health and performance of resource
 > 
 Connecting to Azure Resource Manager (ARM):
 You can use various tools and interfaces. Here are the common methods to connect to and interact with Azure Resource Manager:
-
-1. Azure Portal
+1. Azure Portal:
 The Azure Portal is a web-based interface that allows you to manage your Azure resources visually.
 
 Steps to Connect:
