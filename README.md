@@ -122,16 +122,17 @@ You can view and manage costs and monitor the health and performance of resource
 > [!Note]
 > By organizing resources into resource groups, Azure users can manage their cloud resources more effectively, ensuring that related resources are managed as a cohesive unit. This organizational structure simplifies management tasks and enhances the overall efficiency of resource management in Azure.
 > 
-Connecting to Azure Resource Manager (ARM):
-You can use various tools and interfaces. Here are the common methods to connect to and interact with Azure Resource Manager:
-1. Azure Portal:
-The Azure Portal is a web-based interface that allows you to manage your Azure resources visually.
-
-Steps to Connect:
+### Azure Resource Manager (ARM)
+Azure Resource Manager(ARM) is a deployment and management service for Azure resources. It provides a consistent management layer that allows you to create, update, and delete resources in your Azure account.<br>
+Connecting to Azure Resource Manager (ARM):<br>
+You can use various tools and interfaces. Here are the common methods to connect to and interact with Azure Resource Manager:<br>
+1. Azure Portal:<br>
+The Azure Portal is a web-based interface that enables you to manage your Azure resources visually.<br>
+Steps to Connect:<br>
 Navigate to the Azure Portal.
 Sign in with your [Azure account](https://portal.azure.com/) credentials.
 Once logged in, you can manage your resources using the graphical user interface.
-2. Azure CLI
+3. Azure CLI
 Azure CLI (Command-Line Interface) is a cross-platform command-line tool for managing Azure resources.
 
 Steps to Connect:
