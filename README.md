@@ -163,7 +163,7 @@ New-AzResourceGroup -Name MyResourceGroup -Location eastus
 4. REST API<br>
 Azure Resource Manager also provides REST APIs for programmatic access to Azure services.<br>
 Steps to Connect:<br>
-- Obtain an access token by authenticating with Azure AD. This can be done using tools like curl, Postman, or any HTTP client library in your preferred programming language.<br>
+- Obtain an access token by authenticating with Azure AD. This can be done using tools like curl, Postman[(Postman with Azure)](https://www.google.com/search?q=use+postman+api+to+connect+to+azure&oq=use+postman+api+to+connect+to+azure&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRigATIHCAUQIRifBTIHCAYQIRifBTIHCAcQIRifBTIHCAgQIRifBTIHCAkQIRifBdIBCTE1MTAxajBqN6gCCLACAQ&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:c04192b2,vid:6b1J03fDnOg,st:0), or any HTTP client library in your preferred programming language.<br>
 ```
 curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "grant_type=client_credentials&client_id=<YOUR_CLIENT_ID>&client_secret=<YOUR_CLIENT_SECRET>&resource=https://management.azure.com/" https://login.microsoftonline.com/<YOUR_TENANT_ID>/oauth2/token
 ```
