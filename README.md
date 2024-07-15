@@ -129,13 +129,13 @@ Connecting to Azure Resource Manager (ARM):<br>
 1. Azure Portal:<br>
 The Azure Portal is a web-based interface that enables you to manage your Azure resources visually.<br>
 Steps to Connect:<br>
-   - Navigate to the Azure Portal.
-   - Sign in with your [Azure account](https://portal.azure.com/) credentials.
-   - Once logged in, you can manage your resources using the graphical user interface.<br>
+- Navigate to the Azure Portal.
+- Sign in with your [Azure account](https://portal.azure.com/) credentials.
+- Once logged in, you can manage your resources using the graphical user interface.<br>
 2. Azure CLI<br>
 Azure CLI (Command-Line Interface) is a cross-platform command-line tool for managing Azure resources.<br>
 Steps to Connect:<br>
-- Install Azure CLI from this link.<br>
+- Install Azure CLI from this [link](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli).<br>
 - Open your terminal or command prompt.<br>
 - Log in to your Azure account using the command:
 ```
@@ -146,7 +146,7 @@ az login
 ```
 az group create --name MyResourceGroup --location eastus
 ```
-3. Azure PowerShell<br>
+3. Azure PowerShell<be>
 Azure PowerShell is a set of modules that provide cmdlets to manage Azure resources directly from PowerShell.<br>
 Steps to Connect:<br>
 - Install Azure PowerShell by following the instructions [here](https://docs.microsoft.com/en-us/powershell/azure/new-azureps-module-az).<br>
