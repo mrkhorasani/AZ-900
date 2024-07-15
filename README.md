@@ -132,7 +132,7 @@ Steps to Connect:<br>
    - Navigate to the Azure Portal.
    - Sign in with your [Azure account](https://portal.azure.com/) credentials.
    - Once logged in, you can manage your resources using the graphical user interface.<br>
-2. Azure CLI
+2. Azure CLI<br>
 Azure CLI (Command-Line Interface) is a cross-platform command-line tool for managing Azure resources.<br>
 Steps to Connect:<br>
    - Install Azure CLI from this link.<br>
@@ -141,44 +141,44 @@ Steps to Connect:<br>
 ```
 az login
 ```
-   - Follow the instructions to complete the authentication process.
-   - Once logged in, you can use various az commands to manage your resources. For example:
+   - Follow the instructions to complete the authentication process.<br>
+   - Once logged in, you can use various az commands to manage your resources. For example:<br>
 ```
 az group create --name MyResourceGroup --location eastus
 ```
-3. Azure PowerShell
+3. Azure PowerShell<br>
 Azure PowerShell is a set of modules that provide cmdlets to manage Azure resources directly from PowerShell.<br>
 Steps to Connect:<br>
-   - Install Azure PowerShell by following the instructions [here](https://docs.microsoft.com/en-us/powershell/azure/new-azureps-module-az).
-   - Open PowerShell.
-   - Log in to your Azure account using the command:
+   - Install Azure PowerShell by following the instructions [here](https://docs.microsoft.com/en-us/powershell/azure/new-azureps-module-az).<br>
+   - Open PowerShell.<br>
+   - Log in to your Azure account using the command:<br>
 ```
 Connect-AzAccount
 ```
-   - Follow the instructions to complete the authentication process.
-   - Once logged in, you can use various Azure PowerShell cmdlets to manage your resources. For example:
+   - Follow the instructions to complete the authentication process.<br>
+   - Once logged in, you can use various Azure PowerShell cmdlets to manage your resources. For example:<br>
 ```
 New-AzResourceGroup -Name MyResourceGroup -Location eastus
 ```
-4. REST API
-Azure Resource Manager also provides REST APIs for programmatic access to Azure services.
-Steps to Connect:
-   - Obtain an access token by authenticating with Azure AD. This can be done using tools like curl, Postman, or any HTTP client library in your preferred programming language.
+4. REST API<br>
+Azure Resource Manager also provides REST APIs for programmatic access to Azure services.<br>
+Steps to Connect:<br>
+   - Obtain an access token by authenticating with Azure AD. This can be done using tools like curl, Postman, or any HTTP client library in your preferred programming language.<br>
 ```
 curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "grant_type=client_credentials&client_id=<YOUR_CLIENT_ID>&client_secret=<YOUR_CLIENT_SECRET>&resource=https://management.azure.com/" https://login.microsoftonline.com/<YOUR_TENANT_ID>/oauth2/token
 ```
-   - Use the access token to make authenticated requests to the Azure Resource Manager REST API. For example, to list resource groups:
+   - Use the access token to make authenticated requests to the Azure Resource Manager REST API. For example, to list resource groups:<br>
 ```
 curl -X GET -H "Authorization: Bearer <ACCESS_TOKEN>" -H "Content-Type: application/json" https://management.azure.com/subscriptions/<SUBSCRIPTION_ID>/resourcegroups?api-version=2021-04-01
 ```
-5. Azure SDKs
-Azure SDKs provide libraries for various programming languages like .NET, Java, Python, JavaScript, etc., to interact with Azure services.
-Steps to Connect:
-   - Install the Azure SDK for your preferred programming language. For example, for Python:
+5. Azure SDKs<br>
+Azure SDKs provide libraries for various programming languages like .NET, Java, Python, JavaScript, etc., to interact with Azure services.<br>
+Steps to Connect:<br>
+   - Install the Azure SDK for your preferred programming language. For example, for Python:<br>
 ```
 pip install azure-mgmt-resource
 ```
-   - Use the SDK to authenticate and interact with Azure Resource Manager. Example in Python:
+   - Use the SDK to authenticate and interact with Azure Resource Manager. Example in Python:<br>
 ```
 from azure.identity import DefaultAzureCredential
 from azure.mgmt.resource import ResourceManagementClient
@@ -191,7 +191,7 @@ resource_client = ResourceManagementClient(credential, subscription_id)
 for rg in resource_client.resource_groups.list():
     print(rg.name)
 ```
-These methods allow you to connect to Azure Resource Manager and manage your Azure resources effectively. Choose the one that best fits your workflow and preferences.
+These methods allow you to connect to Azure Resource Manager and manage your Azure resources effectively. Choose the one that best fits your workflow and preferences.<br>
 
 
 ## Azure core services and products
