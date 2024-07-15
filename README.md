@@ -135,14 +135,14 @@ Steps to Connect:<br>
 2. Azure CLI<br>
 Azure CLI (Command-Line Interface) is a cross-platform command-line tool for managing Azure resources.<br>
 Steps to Connect:<br>
-   - Install Azure CLI from this link.<br>
-   - Open your terminal or command prompt.<br>
-   - Log in to your Azure account using the command:
+- Install Azure CLI from this link.<br>
+- Open your terminal or command prompt.<br>
+- Log in to your Azure account using the command:
 ```
 az login
 ```
-      - Follow the instructions to complete the authentication process.<br>
-      - Once logged in, you can use various az commands to manage your resources. For example:<br>
+- Follow the instructions to complete the authentication process.<br>
+- Once logged in, you can use various az commands to manage your resources. For example:<br>
 ```
 az group create --name MyResourceGroup --location eastus
 ```
