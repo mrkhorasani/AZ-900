@@ -125,55 +125,52 @@ You can view and manage costs and monitor the health and performance of resource
 ### Azure Resource Manager (ARM)
 Azure Resource Manager(ARM) is a deployment and management service for Azure resources. It provides a consistent management layer that allows you to create, update, and delete resources in your Azure account.<br>
 Connecting to Azure Resource Manager (ARM):<br>
--  You can use various tools and interfaces. Here are the common methods to connect to and interact with Azure Resource Manager:<br>
+-   You can use various tools and interfaces. Here are the common methods to connect to and interact with Azure Resource Manager:<br>
 1. Azure Portal:<br>
 The Azure Portal is a web-based interface that enables you to manage your Azure resources visually.<br>
 Steps to Connect:<br>
-Navigate to the Azure Portal.
-Sign in with your [Azure account](https://portal.azure.com/) credentials.
-Once logged in, you can manage your resources using the graphical user interface.
-3. Azure CLI
-Azure CLI (Command-Line Interface) is a cross-platform command-line tool for managing Azure resources.
-
-Steps to Connect:
-Install Azure CLI from this link.
-Open your terminal or command prompt.
-Log in to your Azure account using the command:
-bash
-Copy code
+   - Navigate to the Azure Portal.
+   - Sign in with your [Azure account](https://portal.azure.com/) credentials.
+   - Once logged in, you can manage your resources using the graphical user interface.<br>
+2. Azure CLI
+Azure CLI (Command-Line Interface) is a cross-platform command-line tool for managing Azure resources.<br>
+Steps to Connect:<br>
+   - Install Azure CLI from this link.<br>
+   - Open your terminal or command prompt.<br>
+   - Log in to your Azure account using the command:<br>
+```
 az login
-Follow the instructions to complete the authentication process.
-Once logged in, you can use various az commands to manage your resources. For example:
-bash
-Copy code
+```
+   - Follow the instructions to complete the authentication process.
+   - Once logged in, you can use various az commands to manage your resources. For example:
+```
 az group create --name MyResourceGroup --location eastus
+```
 3. Azure PowerShell
 Azure PowerShell is a set of modules that provide cmdlets to manage Azure resources directly from PowerShell.
-
 Steps to Connect:
-Install Azure PowerShell by following the instructions here.
-Open PowerShell.
-Log in to your Azure account using the command:
-powershell
-Copy code
+   - Install Azure PowerShell by following the instructions (https://docs.microsoft.com/en-us/powershell/azure/new-azureps-module-az)[here].
+   - Open PowerShell.
+   - Log in to your Azure account using the command:
+```
 Connect-AzAccount
-Follow the instructions to complete the authentication process.
-Once logged in, you can use various Azure PowerShell cmdlets to manage your resources. For example:
-powershell
-Copy code
+```
+   - Follow the instructions to complete the authentication process.
+   - Once logged in, you can use various Azure PowerShell cmdlets to manage your resources. For example:
+```
 New-AzResourceGroup -Name MyResourceGroup -Location eastus
+```
 4. REST API
 Azure Resource Manager also provides REST APIs for programmatic access to Azure services.
-
 Steps to Connect:
-Obtain an access token by authenticating with Azure AD. This can be done using tools like curl, Postman, or any HTTP client library in your preferred programming language.
-bash
-Copy code
+   - Obtain an access token by authenticating with Azure AD. This can be done using tools like curl, Postman, or any HTTP client library in your preferred programming language.
+```
 curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "grant_type=client_credentials&client_id=<YOUR_CLIENT_ID>&client_secret=<YOUR_CLIENT_SECRET>&resource=https://management.azure.com/" https://login.microsoftonline.com/<YOUR_TENANT_ID>/oauth2/token
-Use the access token to make authenticated requests to the Azure Resource Manager REST API. For example, to list resource groups:
-bash
-Copy code
+```
+   - Use the access token to make authenticated requests to the Azure Resource Manager REST API. For example, to list resource groups:
+```
 curl -X GET -H "Authorization: Bearer <ACCESS_TOKEN>" -H "Content-Type: application/json" https://management.azure.com/subscriptions/<SUBSCRIPTION_ID>/resourcegroups?api-version=2021-04-01
+```
 5. Azure SDKs
 Azure SDKs provide libraries for various programming languages like .NET, Java, Python, JavaScript, etc., to interact with Azure services.
 
