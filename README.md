@@ -149,7 +149,7 @@ az group create --name MyResourceGroup --location eastus
 3. Azure PowerShell
 Azure PowerShell is a set of modules that provide cmdlets to manage Azure resources directly from PowerShell.
 Steps to Connect:
-   - Install Azure PowerShell by following the instructions (https://docs.microsoft.com/en-us/powershell/azure/new-azureps-module-az)[here].
+   - Install Azure PowerShell by following the instructions [here](https://docs.microsoft.com/en-us/powershell/azure/new-azureps-module-az).
    - Open PowerShell.
    - Log in to your Azure account using the command:
 ```
@@ -173,15 +173,13 @@ curl -X GET -H "Authorization: Bearer <ACCESS_TOKEN>" -H "Content-Type: applicat
 ```
 5. Azure SDKs
 Azure SDKs provide libraries for various programming languages like .NET, Java, Python, JavaScript, etc., to interact with Azure services.
-
 Steps to Connect:
-Install the Azure SDK for your preferred programming language. For example, for Python:
-bash
-Copy code
+   - Install the Azure SDK for your preferred programming language. For example, for Python:
+```
 pip install azure-mgmt-resource
-Use the SDK to authenticate and interact with Azure Resource Manager. Example in Python:
-python
-Copy code
+```
+   - Use the SDK to authenticate and interact with Azure Resource Manager. Example in Python:
+```
 from azure.identity import DefaultAzureCredential
 from azure.mgmt.resource import ResourceManagementClient
 
@@ -192,7 +190,11 @@ resource_client = ResourceManagementClient(credential, subscription_id)
 # List all resource groups
 for rg in resource_client.resource_groups.list():
     print(rg.name)
+```
 These methods allow you to connect to Azure Resource Manager and manage your Azure resources effectively. Choose the one that best fits your workflow and preferences.
+
+
+## Azure core services and products
 Azure, Microsoft's cloud computing platform, offers a wide range of core services and products across various domains. Here are some of the key Azure core services and products:
 
 Compute Services
