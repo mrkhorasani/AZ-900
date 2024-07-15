@@ -125,7 +125,7 @@ You can view and manage costs and monitor the health and performance of resource
 ### Azure Resource Manager (ARM)
 Azure Resource Manager(ARM) is a deployment and management service for Azure resources. It provides a consistent management layer that allows you to create, update, and delete resources in your Azure account.<br>
 Connecting to Azure Resource Manager (ARM):<br>
-You can use various tools and interfaces. Here are the common methods to connect to and interact with Azure Resource Manager:<br>
+-  You can use various tools and interfaces. Here are the common methods to connect to and interact with Azure Resource Manager:<br>
 1. Azure Portal:<br>
 The Azure Portal is a web-based interface that enables you to manage your Azure resources visually.<br>
 Steps to Connect:<br>
@@ -196,3 +196,51 @@ resource_client = ResourceManagementClient(credential, subscription_id)
 for rg in resource_client.resource_groups.list():
     print(rg.name)
 These methods allow you to connect to Azure Resource Manager and manage your Azure resources effectively. Choose the one that best fits your workflow and preferences.
+Azure, Microsoft's cloud computing platform, offers a wide range of core services and products across various domains. Here are some of the key Azure core services and products:
+
+Compute Services
+Azure Virtual Machines: Create and manage virtual machines in the cloud.
+Azure App Services: Build and host web apps, mobile backends, and RESTful APIs.
+Azure Kubernetes Service (AKS): Managed Kubernetes service for containerized applications.
+Azure Functions: Serverless compute service to run event-driven code without managing infrastructure.
+Storage Services
+Azure Blob Storage: Massively scalable object storage for unstructured data.
+Azure Disk Storage: Persistent, high-performance disk storage for virtual machines.
+Azure File Storage: Fully managed file shares in the cloud.
+Azure Data Lake Storage: Scalable storage for big data analytics.
+Networking Services
+Azure Virtual Network: Build private networks within Azure.
+Azure Load Balancer: Distribute incoming network traffic across multiple servers.
+Azure Application Gateway: Application-level routing and load balancing.
+Azure Content Delivery Network (CDN): Deliver high-bandwidth content to users globally.
+Database Services
+Azure SQL Database: Managed relational SQL database service.
+Azure Cosmos DB: Globally distributed, multi-model database service.
+Azure Database for MySQL: Managed MySQL database service.
+Azure Database for PostgreSQL: Managed PostgreSQL database service.
+Analytics Services
+Azure Synapse Analytics: Integrated analytics service that combines big data and data warehousing.
+Azure HDInsight: Managed Hadoop and Spark clusters.
+Azure Databricks: Apache Spark-based analytics platform optimized for Azure.
+Azure Stream Analytics: Real-time data stream processing.
+AI and Machine Learning
+Azure Machine Learning: Build, train, and deploy machine learning models.
+Azure Cognitive Services: Pre-built APIs for vision, speech, language, and decision-making.
+Azure Bot Services: Develop intelligent, enterprise-grade bots.
+Internet of Things (IoT)
+Azure IoT Hub: Central message hub for bi-directional communication between IoT applications and devices.
+Azure IoT Central: Fully managed IoT app platform.
+Azure Sphere: Secure, end-to-end IoT solution.
+Security and Identity
+Azure Active Directory (Azure AD): Identity and access management service.
+Azure Key Vault: Manage and protect cryptographic keys and secrets.
+Azure Security Center: Unified security management and threat protection.
+Developer Tools and DevOps
+Azure DevOps: Developer services for CI/CD pipelines, Git repositories, and more.
+Azure DevTest Labs: Quickly create environments in Azure to test applications.
+Azure Repos: Git repositories for source control.
+Management and Monitoring
+Azure Monitor: Comprehensive solution for collecting, analyzing, and acting on telemetry data.
+Azure Automation: Automate frequent, time-consuming, and error-prone tasks.
+Azure Backup: Simplify data protection with built-in backup management.
+These core services and products enable organizations to build, deploy, and manage applications and services through Microsoft-managed data centers, providing scalability, flexibility, and efficiency.
