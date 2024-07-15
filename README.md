@@ -137,7 +137,7 @@ Azure CLI (Command-Line Interface) is a cross-platform command-line tool for man
 Steps to Connect:<br>
    - Install Azure CLI from this link.<br>
    - Open your terminal or command prompt.<br>
-   - Log in to your Azure account using the command:<br>
+   - Log in to your Azure account using the command:
 ```
 az login
 ```
