@@ -147,8 +147,8 @@ az login
 az group create --name MyResourceGroup --location eastus
 ```
 3. Azure PowerShell
-Azure PowerShell is a set of modules that provide cmdlets to manage Azure resources directly from PowerShell.
-Steps to Connect:
+Azure PowerShell is a set of modules that provide cmdlets to manage Azure resources directly from PowerShell.<br>
+Steps to Connect:<br>
    - Install Azure PowerShell by following the instructions [here](https://docs.microsoft.com/en-us/powershell/azure/new-azureps-module-az).
    - Open PowerShell.
    - Log in to your Azure account using the command:
