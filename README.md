@@ -141,8 +141,8 @@ Steps to Connect:<br>
 ```
 az login
 ```
-   - Follow the instructions to complete the authentication process.<br>
-   - Once logged in, you can use various az commands to manage your resources. For example:<br>
+      - Follow the instructions to complete the authentication process.<br>
+      - Once logged in, you can use various az commands to manage your resources. For example:<br>
 ```
 az group create --name MyResourceGroup --location eastus
 ```
