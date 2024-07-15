@@ -97,9 +97,9 @@ AZ are separated locations within a region. Each AZ is made up of one or more da
 ![image](https://github.com/mrkhorasani/AZ-900/assets/51242725/972643a4-f6d0-485c-b05d-86259f765b76)
 ## Availability Sets
 This is a way to ensure our application and services remain online and aren't affected by software and hardware updates and maintenance time. To keep online services during the update of software and hardware in these data centers done through two mechanisms:
-   ### 1. Update Domain
+   ### Update Domain
    Servers in an update domain perform updates sequentially. An update domain consists of all servers where an application is installed in order of redundancy, and servers reside on separate racks. Upgrading processes such as installing patches, firmware, and BIOS on these servers are done sequentially to ensure app and service outages do not affect end-users' service accessibility.
-   ### 2. Fault Domain
+   ### Fault Domain
 This one provides physical separation of workloads across different hardware in the data centers. It means that we have several racks with separated power supply, cooling, and network connection paths that consist of multiple servers, so in the case of hardware upgrades or maintenance, services(apps) are always accessible and available because services and apps reside on several physical servers across the multiple rack or fault domain.
 
 ## Resource Group
