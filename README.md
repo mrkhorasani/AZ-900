@@ -195,52 +195,56 @@ These methods allow you to connect to Azure Resource Manager and manage your Azu
 
 
 ## Azure core services and products
-Azure, Microsoft's cloud computing platform, offers a wide range of core services and products across various domains. Here are some of the key Azure core services and products:<br>
+Azure, Microsoft's cloud computing platform, offers various core services and products across various domains. Here are some of the key Azure core services and products:<br>
 
 
 ### Compute Services
-Azure Virtual Machines: Create and manage virtual machines in the cloud.
-Azure App Services: Build and host web apps, mobile backends, and RESTful APIs.
-Azure Kubernetes Service (AKS): Managed Kubernetes service for containerized applications.
-Azure Functions: Serverless compute service to run event-driven code without managing infrastructure.
-### 3Storage Services
-Azure Blob Storage: Massively scalable object storage for unstructured data.
-Azure Disk Storage: Persistent, high-performance disk storage for virtual machines.
-Azure File Storage: Fully managed file shares in the cloud.
-Azure Data Lake Storage: Scalable storage for big data analytics.
-### Networking Services
-Azure Virtual Network: Build private networks within Azure.
-Azure Load Balancer: Distribute incoming network traffic across multiple servers.
-Azure Application Gateway: Application-level routing and load balancing.
-Azure Content Delivery Network (CDN): Deliver high-bandwidth content to users globally.
+   1. Azure Virtual Machines: Create and manage virtual machines in the cloud.
+   2. VM Scale Sets
+   3. Azure App Services: Build and host web apps, mobile backends, and RESTful APIs.
+   4. Azure Functions: Serverless compute service to run event-driven code without managing infrastructure.
+### Containers
+   1. Azure Kubernetes Service (AKS): Managed Kubernetes service for containerized applications.
+   2. Azure Container instance
+### Azure Storage Services
+   1. Azure Blob Storage: Massively scalable object storage for unstructured data.
+   2. Azure Disk Storage: Persistent, high-performance disk storage for virtual machines.
+   3. Azure File Storage: Fully managed file shares in the cloud.
+   4. Azure Data Lake Storage: Scalable storage for big data analytics.
+### Azure Networking Services
+   1. Azure Virtual Network: Build private networks within Azure.
+   2. Azure Load Balancer: Distribute incoming network traffic across multiple servers.
+   3. Azure Application Gateway: Application-level routing and load balancing.
+   4. VPN Gateway
+   5. Azure Content Delivery Network (CDN): Deliver high-bandwidth content to users globally.
 ### Database Services
-Azure SQL Database: Managed relational SQL database service.
-Azure Cosmos DB: Globally distributed, multi-model database service.
-Azure Database for MySQL: Managed MySQL database service.
-Azure Database for PostgreSQL: Managed PostgreSQL database service.
+   1. Azure SQL Database: Managed relational SQL database service.
+   2. Azure Cosmos DB: Globally distributed, multi-model database service.
+   3. Azure Database for MySQL: Managed MySQL database service.
+   4. Azure Database for PostgreSQL: Managed PostgreSQL database service.
 ### Analytics Services
-Azure Synapse Analytics: Integrated analytics service that combines big data and data warehousing.
-Azure HDInsight: Managed Hadoop and Spark clusters.
-Azure Databricks: Apache Spark-based analytics platform optimized for Azure.
-Azure Stream Analytics: Real-time data stream processing.
+   1. Azure Synapse Analytics: Integrated analytics service that combines big data and data warehousing.
+   2. Azure HDInsight: Managed Hadoop and Spark clusters.
+   3. Azure Databricks: Apache Spark-based analytics platform optimized for Azure.
+   4. Azure Stream Analytics: Real-time data stream processing.
 ### AI and Machine Learning
-Azure Machine Learning: Build, train, and deploy machine learning models.
-Azure Cognitive Services: Pre-built APIs for vision, speech, language, and decision-making.
-Azure Bot Services: Develop intelligent, enterprise-grade bots.
+   1. Azure Machine Learning: Build, train, and deploy machine learning models.
+   2. Azure Cognitive Services: Pre-built APIs for vision, speech, language, and decision-making.
+   3. Azure Bot Services: Develop intelligent, enterprise-grade bots.
 ### Internet of Things (IoT)
-Azure IoT Hub: Central message hub for bi-directional communication between IoT applications and devices.
-Azure IoT Central: Fully managed IoT app platform.
-Azure Sphere: Secure, end-to-end IoT solution.
+   1. Azure IoT Hub: Central message hub for bi-directional communication between IoT applications and devices.
+   2. Azure IoT Central: Fully managed IoT app platform.
+   3. Azure Sphere: Secure, end-to-end IoT solution.
 ### Security and Identity
-Azure Active Directory (Azure AD): Identity and access management service.
-Azure Key Vault: Manage and protect cryptographic keys and secrets.
-Azure Security Center: Unified security management and threat protection.
+   1. Azure Active Directory (AD): Identity and access management service.
+   2. Azure Key Vault: Manage and protect cryptographic keys and secrets.
+   3. Azure Security Center: Unified security management and threat protection.
 ### Developer Tools and DevOps
-Azure DevOps: Developer services for CI/CD pipelines, Git repositories, and more.
-Azure DevTest Labs: Quickly create environments in Azure to test applications.
-Azure Repos: Git repositories for source control.
+   1. Azure DevOps: Developer services for CI/CD pipelines, Git repositories, and more.
+   2. Azure DevTest Labs: Quickly create environments in Azure to test applications.
+   3. Azure Repos: Git repositories for source control.
 ### Management and Monitoring
-Azure Monitor: Comprehensive solution for collecting, analyzing, and acting on telemetry data.
-Azure Automation: Automate frequent, time-consuming, and error-prone tasks.
-Azure Backup: Simplify data protection with built-in backup management.
+   1. Azure Monitor: Comprehensive solution for collecting, analyzing, and acting on telemetry data.
+   2. Azure Automation: Automate frequent, time-consuming, and error-prone tasks.
+   3. zure Backup: Simplify data protection with built-in backup management.
 These core services and products enable organizations to build, deploy, and manage applications and services through Microsoft-managed data centers, providing scalability, flexibility, and efficiency.
